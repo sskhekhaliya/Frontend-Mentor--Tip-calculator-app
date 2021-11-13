@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/sskhekhaliya/Frontend-Mentor-Tip-calculator-app)
-- Live Site URL: (https://sskhekhaliya.github.io/Frontend-Mentor-Tip-calculator-app/)
+- Solution URL: (https://github.com/sskhekhaliya/Frontend-Mentor--Tip-calculator-app)
+- Live Site URL: (https://sskhekhaliya.github.io/Frontend-Mentor--Tip-calculator-app/)
 
 ## My process
 
