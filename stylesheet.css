@@ -264,6 +264,9 @@ body{
     grid-template-columns: 1fr 1fr;
     width: calc(100% - 60px);
   }
+  .error-label{
+    margin-right: 60px;
+  }
   .result{
     width: auto;
   }
