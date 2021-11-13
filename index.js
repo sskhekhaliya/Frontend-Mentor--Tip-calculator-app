@@ -9,13 +9,20 @@ $('.bill-input').on('input', function() {
   resultValue();
 });
 
-  $(".tip-btn").click(function(){
+$(".tip-btn").click(function() {
+  if ($(this).hasClass('tip-btn-active')) {
+    $(this).removeClass("tip-btn-active");
+    tip = 0;
+    $(this).blur();
+    resultValue();
+  } else {
     tipButtontext = $(this).text();
     tip = Number(tipButtontext.match(/\d+/g));
     $(".tip-custom").val("");
     $(".tip-btn").removeClass("tip-btn-active");
     $(this).addClass("tip-btn-active");
     resultValue();
+  }
 });
 
 $(".tip-custom").click(function(){
