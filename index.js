@@ -57,6 +57,7 @@ function resultValue(){
         total = undefined;
         $("input").val('');
         $(".tip-btn").removeClass("tip-btn-active");
+        $('.reset').removeClass('reset-active');
       });
     }
   }
