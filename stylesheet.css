@@ -218,7 +218,7 @@ outline-color: #ed4e4e;
     font-size: 15px;
 }
 
-.reset:hover{
+.reset-active:hover{
   opacity: 100;
   color: hsl(185, 41%, 84%);
   cursor: pointer;
