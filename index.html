@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+<img class="logo-mobile" src="images/logo.svg" alt="logo">
+  <div class="container">
+    <img class="logo" src="images/logo.svg" alt="logo">
+    <div class="calculator">
+      <label>Bill</label>
+      <input class="bill-input" type="number" name="" value="" placeholder="0" min="0">
+
+
+      <label>Select Tip %</label>
+      <div class="tips">
+        <button type="button" class="tip-btn" name="button">5%</button>
+        <button type="button" class="tip-btn" name="button">10%</button>
+        <button type="button" class="tip-btn" name="button">15%</button>
+        <button type="button" class="tip-btn" name="button">25%</button>
+        <button type="button" class="tip-btn" name="button">50%</button>
+        <input class="tip-custom" type="number" name="" value="" placeholder="Custom" min="0">
+      </div>
+
+      <label><span>Number of People</span><span class="error-label">Can't be zero</span></label>
+      <input class="noOfPeople" type="number" name="" value="" placeholder="0" min="0">
+    </div>
+
+    <div class="result">
+      <div class="result-content">
+
+        <div class="result-amount-container">
+          <div class="result-des-content">
+            <p class="result-heading">Tip Amount</p>
+            <p class="result-des">/ person</p>
+          </div>
+          <div class="result-result">
+            <h1 class="tip-amount">$0.00</h1>
+          </div>
+        </div>
+        <div class="result-amount-container">
+          <div class="result-des-content">
+            <p class="result-heading">Total</p>
+            <p class="result-des">/ person</p>
+          </div>
+          <div class="result-result">
+            <h1 class="total-tip">$0.00</h1>
+          </div>
+        </div>
+      <button class="reset" type="button" name="button">  Reset </button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.sskhekhaliya.com">SSKhekhaliya</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
